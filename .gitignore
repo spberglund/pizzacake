@@ -1,0 +1,6 @@
+#Exclude History, Previews, and other useless files
+**/History/
+**/__Previews/
+**/Project Logs for*/
+*.PrjPcbStructure
+*.PrjPcbVariants
