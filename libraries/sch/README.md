@@ -1,32 +1,32 @@
-resistor.SchLib -
-  For all resistors
-  
-capacitor.SchLib -
-  For all capacitors
+### resistor.SchLib
+For all resistors
 
-inductor.SchLib -
-  For inductors as well as transformers and ferrite beads
+### capacitor.SchLib
+For all capacitors
 
-diode.SchLib -
-  For diodes and thyristors, including diode arrays
-  
-transistor.SchLib -
-  For MOSFETs, BJTs, IGBTs, and any other type of transistor
-  
-ic.SchLib -
-  For integrated circuits (microcontrollers, ADCs, op-amps, etc.)
+### inductor.SchLib
+For inductors as well as transformers and ferrite beads
 
-fuse.SchLib -
-  For fuses, fuse holders, breakers etc.
-  
-connector.SchLib -
-  For electrical connectors, terminal blocks, etc.
-  
-mech.SchLib
-  For mechanical parts such as standoffs, screw holes, enclosures, etc.
-  
-art.SchLib
-  For graphical footprints, artwork, etc.
-  
-misc.SchLib
-  For everything else
+### diode.SchLib
+For diodes and thyristors, including diode arrays
+
+### transistor.SchLib
+For MOSFETs, BJTs, IGBTs, and any other type of transistor
+
+### ic.SchLib
+For integrated circuits (microcontrollers, ADCs, op-amps, etc.)
+
+### fuse.SchLib
+For fuses, fuse holders, breakers etc.
+
+### connector.SchLib
+For electrical connectors, terminal blocks, etc.
+
+### mech.SchLib
+For mechanical parts such as standoffs, screw holes, enclosures, etc.
+
+### art.SchLib
+For graphical footprints, artwork, etc.
+
+### misc.SchLib
+For everything else
