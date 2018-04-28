@@ -1,1 +1,1 @@
-This is the template README for a PCB project. Replace this with some actual documentation for your project.
+Generic breakout board for 36mm DC motor. Allows for a XT60 connector to be placed on it at a large variety of angles
