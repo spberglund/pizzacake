@@ -12,7 +12,7 @@ def createProjectFromTemplate(newProjectPath, dontMakeLibraries):
 	
 	projectExt = '.PrjPcb' #File extension of the project file
 	libFileExts = ('.SchLib', '.PcbLib')
-	projectFileExts = libFileExts + ('.PcbDoc', '.SchDoc', '.OutJob') #File types to consder as part of the template in addition to projectExt
+	projectFileExts = libFileExts + ('.PcbDoc', '.SchDoc', '.OutJob', '.md') #File types to consider as part of the template in addition to projectExt
 	
 	newProjectPath = os.path.normpath(newProjectPath)
 	newProjectPathParts = newProjectPath.split(os.sep)
