@@ -11,8 +11,11 @@ _rel_project_dir = '..' #Directory to put new projects relative to this script.
 def createProjectFromTemplate(newProjectPath, dontMakeLibraries):
 	
 	projectExt = '.PrjPcb' #File extension of the project file
-	libFileExts = ('.SchLib', '.PcbLib')
-	projectFileExts = libFileExts + ('.PcbDoc', '.SchDoc', '.OutJob', '.md') #File types to consider as part of the template in addition to projectExt
+	libFileExts = ('.SchLib', '.PcbLib') #these are library files
+	exactCopyFileExts = ('.md',) #exactly copy these kind of files
+	
+	projectFileExts = libFileExts + exactCopyFileExts + ('.PcbDoc', '.SchDoc', '.OutJob') #File types to consider as part of the template in addition to projectExt
+	
 	
 	newProjectPath = os.path.normpath(newProjectPath)
 	newProjectPathParts = newProjectPath.split(os.sep)
@@ -53,7 +56,10 @@ def createProjectFromTemplate(newProjectPath, dontMakeLibraries):
 			projectFileStr = re.sub(r'\[Document[0-9]+\]\sDocumentPath='+re.escape(fileName)+r'[^\[]+', '', projectFileStr, 1, re.S)
 		else:
 			filePath = os.path.join(_script_dir, fileName)
-			newFileName = newProjectName + fileExt
+			if fileExt in exactCopyFileExts:
+				newFileName = fileName
+			else:
+				newFileName = newProjectName + fileExt
 			newFilePath = os.path.join(newProjectRealDir, newFileName)
 			
 			projectFileStr = projectFileStr.replace(fileName, newFileName)

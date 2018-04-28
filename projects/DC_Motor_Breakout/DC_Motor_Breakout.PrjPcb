@@ -90,7 +90,7 @@ GenerateClassCluster=0
 DocumentUniqueId=UAFXNNGI
 
 [Document4]
-DocumentPath=DC_Motor_Breakout.md
+DocumentPath=README.md
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
