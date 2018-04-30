@@ -44,7 +44,7 @@ Configuration1_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False
 OutputType2=NC Drill
 OutputName2=NC Drill Files
 OutputCategory2=Fabrication
-OutputDocumentPath2=
+OutputDocumentPath2=BB8_Flywheel_Motors_Panel.PcbDoc
 OutputVariantName2=
 OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
@@ -56,7 +56,7 @@ Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|Ge
 OutputType3=Gerber
 OutputName3=Gerber Files
 OutputCategory3=Fabrication
-OutputDocumentPath3=
+OutputDocumentPath3=BB8_Flywheel_Motors_Panel.PcbDoc
 OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
