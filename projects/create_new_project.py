@@ -8,7 +8,7 @@ from itertools import count
 _script_dir = os.path.dirname(os.path.realpath(__file__))
 _rel_project_dir = '.' #Directory to put new projects relative to this script.
 
-_template_dir = os.path.join(_script_dir, 'template') #path of template directory
+_template_dir = os.path.realpath(os.path.join(_script_dir, '../resources/template')) #path of template directory
 
 def createProjectFromTemplate(newProjectPath, dontMakeLibraries):
 	
