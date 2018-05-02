@@ -6,7 +6,9 @@ import sys, os, shutil, re
 from itertools import count
 
 _script_dir = os.path.dirname(os.path.realpath(__file__))
-_rel_project_dir = '..' #Directory to put new projects relative to this script.
+_rel_project_dir = '.' #Directory to put new projects relative to this script.
+
+_template_dir = os.path.join(_script_dir, 'template') #path of template directory
 
 def createProjectFromTemplate(newProjectPath, dontMakeLibraries):
 	
@@ -25,7 +27,7 @@ def createProjectFromTemplate(newProjectPath, dontMakeLibraries):
 	
 	templateProjectFileName = None
 	templateFileNames = []
-	for fileName in os.listdir(_script_dir):
+	for fileName in os.listdir(_template_dir):
 		fileBase, fileExt = os.path.splitext(fileName)
 		if fileExt == projectExt:
 			if templateProjectFileName:
@@ -38,7 +40,7 @@ def createProjectFromTemplate(newProjectPath, dontMakeLibraries):
 	if not templateProjectFileName:
 		print('No project file found in template directory!')
 
-	templateProjectPath = os.path.join(_script_dir, templateProjectFileName)
+	templateProjectPath = os.path.join(_template_dir, templateProjectFileName)
 	templateProjectFile = open(templateProjectPath, 'r')
 	projectFileStr = templateProjectFile.read()
 	templateProjectFile.close()
@@ -55,7 +57,7 @@ def createProjectFromTemplate(newProjectPath, dontMakeLibraries):
 			print(fileName)
 			projectFileStr = re.sub(r'\[Document[0-9]+\]\sDocumentPath='+re.escape(fileName)+r'[^\[]+', '', projectFileStr, 1, re.S)
 		else:
-			filePath = os.path.join(_script_dir, fileName)
+			filePath = os.path.join(_template_dir, fileName)
 			if fileExt in exactCopyFileExts:
 				newFileName = fileName
 			else:
