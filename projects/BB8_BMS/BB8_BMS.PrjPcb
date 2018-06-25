@@ -106,23 +106,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=Batt_Meas.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BERLBFFN
-
-[Document6]
 DocumentPath=Micro.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +122,41 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UFHRYGRE
 
+[Document6]
+DocumentPath=Batt_Meas.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BERLBFFN
+
 [Document7]
+DocumentPath=Current_Meas.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OAIYNVYV
+
+[Document8]
 DocumentPath=Power_Ctrl.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,14 +173,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QKCJFTVL
 
-[Document8]
-DocumentPath=Current_Meas.SchDoc
+[Document9]
+DocumentPath=Power_Reg.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -171,7 +188,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=OAIYNVYV
+DocumentUniqueId=KTGVQGXQ
 
 [Configuration1]
 Name=SVP Configuration
