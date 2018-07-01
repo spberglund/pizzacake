@@ -16,9 +16,6 @@ For MOSFETs, BJTs, IGBTs, and any other type of transistor
 ### ic.SchLib
 For integrated circuits (microcontrollers, ADCs, op-amps, etc.)
 
-### fuse.SchLib
-For fuses, fuse holders, breakers etc.
-
 ### connector.SchLib
 For electrical connectors, terminal blocks, etc.
 
