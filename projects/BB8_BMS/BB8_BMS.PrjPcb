@@ -276,23 +276,6 @@ GenerateClassCluster=0
 DocumentUniqueId=KTHHSMYI
 
 [Document15]
-DocumentPath=Volt_Meas.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=9
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AHRYJMQI
-
-[Document16]
 DocumentPath=Temp_Mux.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SEKAMLDO
 
-[Document17]
+[Document16]
 DocumentPath=FRAM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,8 +309,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MGKTYENG
 
-[Document18]
-DocumentPath=5V_Regulator.SchDoc
+[Document17]
+DocumentPath=Ext_Regulators.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -343,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RIBMOAWW
 
-[Document19]
+[Document18]
 DocumentPath=IMU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -484,7 +467,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother HL-2170W series Printer
+TargetPrinter=\\ISSMN103v\PTR_1st_Floor_Copy
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
