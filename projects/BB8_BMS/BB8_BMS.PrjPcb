@@ -394,6 +394,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AYJXRONE
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for BB8_BMS\BB8_BMS.step
+DItemRevisionGUID=
+
 [Configuration1]
 Name=SVP Configuration
 ParameterCount=0
